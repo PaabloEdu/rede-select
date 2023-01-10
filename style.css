@@ -1,0 +1,238 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+.nav-bar {
+           display: flex;
+           flex-flow: row wrap;
+           height: 100px;
+           justify-content: center;/*alinhamento do menu*/
+           align-items: center ; /*alinhamento do menu*/
+           
+}
+
+.logo {
+    flex:10%;
+   
+    margin-left: 10%;
+   /*border: 1px solid #830101;*/
+}
+
+img{
+   margin-left: 10%;
+    vertical-align: middle;
+}
+
+a {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.menu {
+      flex: 70%;
+      text-align: right;
+      padding: 5px;
+      /*border: 1px solid #fc0000;*/
+      margin-left: 5%;
+      
+     
+}
+
+.menu a{
+   text-decoration: none;
+   color: #ff0000;
+   font-size: 20px;
+   padding: 20px 16px;
+   font-family: 'Roboto', sans-serif;
+}
+
+.menu a:hover {
+    border-top: 4px solid #830101;
+}
+
+
+
+#botao {
+        background: #ff0000;
+        padding: 10px 25px;
+        color: white;
+        border-radius: 5px;
+        margin-right: 10%;
+        margin-left: 5%;
+}
+
+#botao:hover {
+    border: none;
+    background: #a00000;
+}
+
+.header {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+     background: rgb(255, 255, 255)
+}
+
+
+#img-containe {
+      height: 400px;
+       margin-left: auto;     
+}
+
+
+section {
+    display: inline-block;
+     margin-top: 80px;
+     margin-left: 5%;
+     margin-right: 5%;
+     text-align: center;
+     padding: 5%;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+    font: bold;
+    color: red;
+}
+
+.serviços {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+    
+.card {
+    display: inline-block;
+    width:30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: red;
+    color: white;
+    padding: 50px;
+}
+
+.card:hover img{
+   display: none;
+}
+
+.card:hover .card-text{
+       display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+.texto-oculto {
+     display: none;
+
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    color: var(--colorRed);
+    border-radius: 30px;
+    padding: 10px 15px;
+    background: url(../img/icons/setinha.svg) 98% 50% no-repeat;
+    border: 1px solid #828282;
+}
+
+select {
+    word-wrap: normal;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.session h3{
+    padding: 15px;
+}
+
+select {
+     padding: 15px;
+     width: 800px;
+     padding: 10px 15px;
+    background: url(img/down-arrow.png) 98% 50% no-repeat;
+  /*  border: 1px solid #828282;*/
+    
+}
+
+
+.line {
+    /*border: 1px solid black;*/
+   
+}
+
+.contact-btn {
+    display: inline-flex;
+     padding: 10px;
+     color: gray;
+     text-transform: uppercase;
+     border-radius: 25px;
+     border: 1px solid;
+     text-decoration: none;
+     margin: 40px;
+}
+
+.line h3 {
+      text-align: center;
+      font-weight: 200;
+      font-size: 20px;
+      color: gray;
+      padding: 20px;
+}
+
+.img-line {
+     margin-right: auto;
+     flex: 10%;
+     box-shadow:   black;
+}
+
+.sec {
+    display: inline-flex;
+    /* border: 1px solid red; */
+     margin-right: auto;
+     background: #fcfcfc;
+     border-radius: 30px;
+}
+
+footer {
+    height: 400px;
+    text-align: center;
+    background: #828282;
+}
+
+.logo-rodape {
+   padding: 100px;
+   
+}
+
+.agencia {
+   font-size: 35px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
